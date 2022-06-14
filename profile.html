@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page - StartUpSocial - Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/76c50921ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+          <img src="images/facebo.gif" alt="" class="logo" />
+        </a>
+        <ul>
+          <li><img src="images/notification.png" alt="" /></li>
+          <li><img src="images/inbox.png" alt="" /></li>
+          <li><img src="images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="" />
+        </div>
+      </div>
+
+      <!-- SETTINGS MENU -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="" />
+            <div>
+              <p>Filbert Leonardo</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="images/setting.png" alt="" class="settings-icon" />
+            <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px" /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" alt="" class="settings-icon" />
+            <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px" /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" alt="" class="settings-icon" />
+            <a href="#">Display & Accessibility <img src="images/arrow.png" alt="" width="10px" /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" alt="" class="settings-icon" />
+            <a href="#">LogOut <img src="images/arrow.png" alt="" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PROFILE PAGE -->
+    <div class="profile-container">
+      <img src="images/cover.png" alt="" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="images/profile-pic.png" alt="" class="pd-image" />
+            <div>
+              <h3>Filbert Leonardo</h3>
+              <p>1000 Friends - 950 mutual</p>
+              <img src="images/member-1.png" alt="" />
+              <img src="images/member-2.png" alt="" />
+              <img src="images/member-3.png" alt="" />
+              <img src="images/member-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button"><img src="images/add-friends.png" alt="" /> Friends</button>
+          <button type="button"><img src="images/message.png" alt="" /> Message</button>
+          <br />
+          <a href="#"><img src="images/more.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>Intro</h3>
+            <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png" alt="" /></p>
+            <hr />
+            <ul>
+              <li><img src="images/profile-job.png" alt="" /> Senior Front End Developer at Google</li>
+              <li><img src="images/profile-study.png" alt="" /> Studied at Sari Mutiara University</li>
+              <li><img src="images/profile-study.png" alt="" /> Went to Australia</li>
+              <li><img src="images/profile-home.png" alt="" /> Lives in Medan , Indonesia</li>
+              <li><img src="images/profile-location.png" alt="" /> From Medan , Indonesia</li>
+            </ul>
+          </div>
+
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Photos</h3>
+              <a href="#">All Photos</a>
+            </div>
+
+            <div class="photo-box">
+              <div><img src="images/photo1.png" alt="" /></div>
+              <div><img src="images/photo2.png" alt="" /></div>
+              <div><img src="images/photo3.png" alt="" /></div>
+              <div><img src="images/photo4.png" alt="" /></div>
+              <div><img src="images/photo5.png" alt="" /></div>
+              <div><img src="images/photo6.png" alt="" /></div>
+            </div>
+          </div>
+
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Friends</h3>
+              <a href="#">All Friends</a>
+            </div>
+            <p>200 (50 mutual)</p>
+
+            <div class="friends-box">
+              <div>
+                <img src="images/member-1.png" alt="" />
+                <p>Olivia</p>
+              </div>
+              <div>
+                <img src="images/member-2.png" alt="" />
+                <p>Sam</p>
+              </div>
+              <div>
+                <img src="images/member-3.png" alt="" />
+                <p>Mindy</p>
+              </div>
+              <div>
+                <img src="images/member-4.png" alt="" />
+                <p>Billy</p>
+              </div>
+              <div>
+                <img src="images/member-5.png" alt="" />
+                <p>Dennish</p>
+              </div>
+              <div>
+                <img src="images/member-6.png" alt="" />
+                <p>Kelly</p>
+              </div>
+              <div>
+                <img src="images/member-7.png" alt="" />
+                <p>John</p>
+              </div>
+              <div>
+                <img src="images/member-8.png" alt="" />
+                <p>Veronica</p>
+              </div>
+              <div>
+                <img src="images/member-9.png" alt="" />
+                <p>Kendrik</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-col">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="" />
+              <div>
+                <p>Filbert Leonardo</p>
+                <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+              </div>
+            </div>
+
+            <div class="post-input-container">
+              <textarea rows="3" placeholder="What's on yout mind, Filbert?"></textarea>
+              <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png" alt="" /> Live Video</a>
+                <a href="#"><img src="images/photo.png" alt="" /> Photo Video</a>
+                <a href="#"><img src="images/feeling.png" alt="" /> Feeling Activity</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="" />
+                <div>
+                  <p>Filbert Leonardo</p>
+                  <span>June 3 2022 , 15:20 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">Follow me <span> @filbert.leonardo </span> to get more knowleges on website developement and UI designs. <a href="#">#EasyTutorials</a><a href="#"> #Instagram</a></p>
+            <img src="images/feed-image-1.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" alt="" />1000</div>
+                <div><img src="images/comments.png" alt="" />300</div>
+                <div><img src="images/share.png" alt="" />500</div>
+              </div>
+              <div class="post-profile-icon"><img src="images/profile-pic.png" alt="" /><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="" />
+                <div>
+                  <p>Filbert Leonardo</p>
+                  <span>May 25 2022 , 19:00 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">Having good time with <span> @felicia </span> & others on the beach. <a href="#">#Vacation</a><a href="#"> #Bali</a></p>
+            <img src="images/feed-image-2.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like.png" alt="" />1380</div>
+                <div><img src="images/comments.png" alt="" />980</div>
+                <div><img src="images/share.png" alt="" />600</div>
+              </div>
+              <div class="post-profile-icon"><img src="images/photo4.png" alt="" /><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="" />
+                <div>
+                  <p>Filbert Leonardo</p>
+                  <span>June 9 2022 , 11:40 am</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">We will gonna miss you<span> @raymond tok </span> . See you on top. <a href="#">#Friendship</a><a href="#"> #LastForever</a></p>
+            <img src="images/feed-image-3.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like.png" alt="" />420</div>
+                <div><img src="images/comments.png" alt="" />110</div>
+                <div><img src="images/share.png" alt="" />250</div>
+              </div>
+              <div class="post-profile-icon"><img src="images/photo6.png" alt="" /><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="" />
+                <div>
+                  <p>Filbert Leonardo</p>
+                  <span>June 3 2022 , 09:00 am</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">Happy birthday to my lovely <span> @mindy </span> sweet-heart. <a href="#">#Couple</a><a href="#"> #HappyBirthday</a></p>
+            <img src="images/feed-image-4.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" alt="" />1200</div>
+                <div><img src="images/comments.png" alt="" />780</div>
+                <div><img src="images/share.png" alt="" />670</div>
+              </div>
+              <div class="post-profile-icon"><img src="images/photo6.png" alt="" /><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="" />
+                <div>
+                  <p>Filbert Leonardo</p>
+                  <span>May 30 2022 , 08:00 am</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+
+            <p class="post-text">Big project is gonna be happen with <span> @lewis.kito </span> & teams. <a href="#">#Works</a><a href="#"> #ForFuture</a></p>
+            <img src="images/feed-image-5.png" alt="" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like.png" alt="" />100</div>
+                <div><img src="images/comments.png" alt="" />60</div>
+                <div><img src="images/share.png" alt="" />25</div>
+              </div>
+              <div class="post-profile-icon"><img src="images/photo4.png" alt="" /><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2022 - Filbert Leonardo</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
